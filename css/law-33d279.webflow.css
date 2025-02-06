@@ -831,6 +831,7 @@ figure {
   grid-row-gap: 2rem;
   justify-content: flex-start;
   align-items: center;
+  display: none;
 }
 
 .form-block {
@@ -2369,9 +2370,7 @@ figure {
   max-width: 120rem;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding: 10px 3rem 0;
 }
 
 .text-block-8 {
@@ -2383,6 +2382,18 @@ figure {
   font-weight: 700;
   position: relative;
   bottom: 12px;
+}
+
+.form_input {
+  background-color: #0000;
+  border: 1px solid #eee;
+  min-height: 3rem;
+  margin-bottom: .75rem;
+  padding: .5rem 1rem;
+}
+
+.form_input::placeholder, .form_input.is-select-input {
+  color: #222;
 }
 
 @media screen and (max-width: 991px) {
@@ -3523,7 +3534,7 @@ figure {
   align-self: start;
 }
 
-#w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc5a-0119884f, #w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc5e-0119884f, #w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc62-0119884f, #w-node-_47e79135-8506-683c-dca9-52b9fe77d3f1-0119884f {
+#w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc5a-0119884f, #w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc5e-0119884f, #w-node-c1250e62-ef4d-193b-23a1-61a7db7abab8-0119884f, #w-node-_71018ae7-ba84-162f-8b43-25d00fedeb0e-0119884f, #w-node-_37c3bc60-3092-fb3e-8cbb-418ff89fdc62-0119884f, #w-node-_47e79135-8506-683c-dca9-52b9fe77d3f1-0119884f {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
