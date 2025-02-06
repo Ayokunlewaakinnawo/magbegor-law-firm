@@ -2602,6 +2602,11 @@ figure {
     font-size: 4rem;
   }
 
+  .button-tertiary.top-padding {
+    justify-content: center;
+    align-items: center;
+  }
+
   .paragraph-18 {
     font-size: 1rem;
   }
@@ -2779,6 +2784,10 @@ figure {
 
   .contact-links {
     font-size: 1.1em;
+  }
+
+  .contact-form-grid {
+    display: flex;
   }
 
   .features-3-column-grid {
@@ -3067,6 +3076,7 @@ figure {
   }
 
   .hp-hero_text-wrapper {
+    margin-top: 100px;
     margin-bottom: 1rem;
   }
 
@@ -3410,6 +3420,10 @@ figure {
   .feature-grid-2 {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .contact-links {
+    font-size: 14px;
   }
 
   .form-elements-grid {
